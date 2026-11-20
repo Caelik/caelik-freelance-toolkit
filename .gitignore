@@ -1,0 +1,39 @@
+# Virtual environments and editor settings
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Python build and test artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Environment files and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Data and generated reporting artifacts (do not commit client records)
+*.csv
+*.xls
+*.xlsx
+*.xlsm
+*.parquet
+*.sqlite
+*.db
+project_template/data/raw/*
+!project_template/data/raw/.gitkeep
+project_template/output/*
+!project_template/output/.gitkeep
+
+# Miscellaneous
+.DS_Store
+Thumbs.db

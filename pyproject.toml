@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "caelik-freelance-toolkit"
+version = "0.2.0"
+description = "Reusable, explicit data-audit, cleaning, joins, inventory, validation, and Excel presentation helpers for freelance analytics."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "openpyxl>=3.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
